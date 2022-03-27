@@ -6,7 +6,9 @@ import os
 # t=[1,2,3,4,5,6,7]
 # q=[3,3,3,3,3,3]
 # np.savez("data.npz",t,q)
-
+'''
+该文件没有意义，用于测试如何使用npz文件
+'''
 
 train = np.load("data1.npz",allow_pickle=True)["arr_0"].tolist()
 val = np.load("data1.npz",allow_pickle=True)["arr_1"].tolist()
